@@ -1,0 +1,22 @@
+body {
+  transition: background 0.3s, color 0.3s;
+}
+.hero {
+  height: 90vh;
+  background: linear-gradient(135deg, #74ABE2, #5563DE);
+  color: white;
+}
+.highlight {
+  color: yellow;
+}
+.contact {
+  background: #f8f9fa;
+}
+.dark-mode {
+  background: #121212 !important;
+  color: #f1f1f1 !important;
+}
+.dark-mode .card {
+  background: #1e1e1e;
+  color: white;
+}
